@@ -1,0 +1,49 @@
+.Container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.pl-parent{
+    height: 99vh;
+    width: 30%;
+    background: rgb(244, 246, 245);
+    border-right: 4px solid gray;
+  }
+.profile_collection{
+  width: 100%;
+  height: 88vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.cb-parent{
+  height: 99vh;
+  width: 70%;
+  background: rgb(33, 34, 34);
+}
+
+.cb-header{
+height: 60px;
+width: 100%;
+background: #fffefe;
+border-bottom: 0.5px solid black;
+}
+
+.cb-body{
+  height: calc(100% - 130px);
+  width: 100%;
+  background: silver;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.cb-footer{
+  height: 70px;
+  width: 100%;
+  background: white;
+  border-top: 0.5px solid black;
+}

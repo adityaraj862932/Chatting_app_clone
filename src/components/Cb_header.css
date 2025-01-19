@@ -1,0 +1,84 @@
+.Cb_parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.Cbh_prof_parent{
+    height:100%;
+    width:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+.Cbh_prof_pic{
+    height: 80%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.Cbh_detail_parent{
+    height:100%;
+    width:calc(100% - 240px);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Cbh_detail_name{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Cbh_detail_info{
+    height: 50%;
+    width: 100%;
+}
+.Cbh_buttons{
+    height:100%;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+.Cbh_calls{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+}
+.Cbh_calls div{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Cbh_search{
+    width: 25%;
+    height: 80%;
+    border-radius: 10px;
+}
+.Cbh_search div{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Cbh_search div:hover{
+    background: rgb(240, 242, 243);
+    cursor: pointer;
+}
+
+.Cbh_calls div:hover{
+    background: rgb(240, 242, 243);
+    cursor: pointer;
+}

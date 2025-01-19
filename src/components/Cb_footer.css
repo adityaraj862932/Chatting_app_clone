@@ -1,0 +1,46 @@
+.Cbf_parent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Cbf_docs{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.Cbf_docs div , .Cbf_mic div{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;  
+    border-radius: 10px;  
+
+}
+.Cbf_mic div{
+    width: 100%;
+}
+.Cbf_msg{
+    height: 100%;
+    width: calc(100% - 180px);
+}
+.Cbf_input{
+    width: 99%;
+    height: 98%;
+
+}
+.Cbf_mic{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.Cbf_docs div:hover , .Cbf_mic div:hover{
+    background: silver;
+}

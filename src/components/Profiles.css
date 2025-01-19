@@ -1,0 +1,64 @@
+.Profiles_parent{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.Profiles_parent:hover{
+    cursor: pointer;
+    background:rgb(208, 203, 203);
+}
+.dp-parent{
+    height: 100%;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dp{
+    height: 70%;
+    width: 70%;
+    border-radius:50%;
+}
+.detail_parent{
+    height: 100%;
+    width:calc(100% - 70px);
+}
+
+.detail{
+    height: 50%;
+    width:100%;
+    display: flex;
+}
+.name{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+.name h4{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+.status{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 0 10% 0 5%
+}
+.recent_chat{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.recent_chat p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
