@@ -45,25 +45,28 @@ function App() {
             </div>
            
           </div>
-          <div className="cb-parent">
-            <div className="cb-header">
-              <Cb_header
+          {selectedProfile ? (
+        <div className='cb-parent'>
+          <div className='cb-header'>
+            <Cb_header
               name={selectedProfile?.name}
               profilePicture={selectedProfile?.profilePicture}
-              />
-            </div>
-            <div className="cb-body">
-              <Cb_body/>
-            </div>
-            <div className="cb-footer">
-              <Cb_footer/>
-            </div>
+            />
           </div>
-        
-
-
+          <div className='cb-body'>
+            <Cb_body />
+          </div>
+          <div className='cb-footer'>
+            <Cb_footer />
+          </div>
+        </div>
+      ) : (
+        <div className='cb-parent'>
+          <p className='no-selection-text'>Please select a profile to start a chat.</p>
+        </div>
+      )}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
