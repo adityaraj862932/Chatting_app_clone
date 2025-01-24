@@ -1,6 +1,6 @@
 import React ,{useState,useEffect} from 'react'
 import './App.css'
-import Nav from './components/nav.jsx'
+import Nav from './components/Nav.jsx'
 import Search_box from './components/Search_box.jsx'
 import Profiles from './components/Profiles.jsx'
 import profilesData from './components/profilesData.json';
